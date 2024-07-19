@@ -1,11 +1,11 @@
 
 import { defineConfig } from "rolldown";
 import replace from "@rollup/plugin-replace";
-
+import path from 'node:path'
 const isBuild = true;
 
 export default defineConfig({
-	input: "./index.jsx",
+	input: path.resolve(import.meta.dirname, "./index.jsx"),
 	// NOTE: Rolldown doesn't support CSS yet
 	// external: ["./*.css"],
 	resolve: {
