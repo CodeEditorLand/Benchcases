@@ -1,6 +1,6 @@
 
 import { defineConfig } from "rolldown";
-import replace from "@rollup/plugin-replace";
+// import replace from "@rollup/plugin-replace";
 import path from 'node:path'
 const isBuild = true;
 
