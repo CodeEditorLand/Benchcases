@@ -1,10 +1,10 @@
 {
 	"dependencies": {
-		"@iconify-icons/material-symbols": "^1.2.58",
-		"@rollup/plugin-replace": "^5.0.7"
+		"@iconify-icons/material-symbols": "1.2.58",
+		"@rollup/plugin-replace": "5.0.7"
 	},
 	"devDependencies": {
-		"esbuild": "^0.23.0",
+		"esbuild": "0.23.0",
 		"rolldown": "0.10.5-snapshot-dec1a7c-20240704002721"
 	},
 	"scripts": {
