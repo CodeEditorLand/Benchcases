@@ -4,8 +4,8 @@
 		"@rollup/plugin-replace": "5.0.7"
 	},
 	"devDependencies": {
-		"esbuild": "0.23.0",
-		"rolldown": "0.10.5-snapshot-dec1a7c-20240704002721"
+		"esbuild": "0.23.1",
+		"rolldown": "0.12.2"
 	},
 	"scripts": {
 		"build": "rolldown build --config ./rolldown.config.mjs",
