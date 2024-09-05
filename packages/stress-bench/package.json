@@ -5,7 +5,7 @@
 	},
 	"devDependencies": {
 		"esbuild": "0.23.1",
-		"rolldown": "0.13.0"
+		"rolldown": "0.13.1"
 	},
 	"scripts": {
 		"build": "rolldown build --config ./rolldown.config.mjs",
