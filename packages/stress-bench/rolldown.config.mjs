@@ -1,7 +1,7 @@
-
-import { defineConfig } from "rolldown";
+import path from "node:path";
 import replace from "@rollup/plugin-replace";
-import path from 'node:path'
+import { defineConfig } from "rolldown";
+
 const isBuild = true;
 
 export default defineConfig({
@@ -24,6 +24,6 @@ export default defineConfig({
 		sourcemap: isBuild ? false : "inline",
 	},
 	moduleTypes: {
-		".css": "empty"
-	}
+		".css": "empty",
+	},
 });
