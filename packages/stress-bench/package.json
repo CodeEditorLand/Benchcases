@@ -5,10 +5,10 @@
 	},
 	"dependencies": {
 		"@iconify-icons/material-symbols": "1.2.58",
-		"@rollup/plugin-replace": "6.0.1"
+		"@rollup/plugin-replace": "6.0.2"
 	},
 	"devDependencies": {
-		"esbuild": "0.24.0",
-		"rolldown": "0.15.0"
+		"esbuild": "0.25.1",
+		"rolldown": "0.15.1"
 	}
 }
