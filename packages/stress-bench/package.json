@@ -8,7 +8,7 @@
 		"@rollup/plugin-replace": "6.0.2"
 	},
 	"devDependencies": {
-		"esbuild": "0.25.1",
+		"esbuild": "0.25.2",
 		"rolldown": "0.15.1"
 	}
 }
