@@ -1,6 +1,6 @@
 {
 	"devDependencies": {
-		"esbuild": "^0.25.5",
+		"esbuild": "^0.28.1",
 		"rolldown": "1.0.0-beta.13"
 	},
 	"scripts": {
